@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="css/carousel.css" rel="stylesheet">
+    <link href="css/images.css" rel="stylesheet">
+    <link id="icon" href="image/icon.svg" rel="shortcut icon">
+</head>
+<body>
+<a id="skippy" class="sr-only sr-only-focusable" href="#content">
+    <div class="container">
+        <span class="skiplink-text">Skip to main content</span>
+    </div>
+</a>
+
+<header>
+
+    <!-- header page link -->
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#profile">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<main role="main">
+
+    <!-- top page image -->
+    <div class="jumbotron jumbotron-fluid">
+    </div>
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing mt-5">
+
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+            <div class="col-lg-4">
+                <button type="button" class="btn rounded-circle"
+                        onclick="location.href='#profile'"
+                        style="font-size: 30px">Profile
+                </button>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <button type="button" class="btn rounded-circle"
+                        onclick="location.href='#work'"
+                          style="font-size: 30px">Work
+                </button>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <button type="button" class="btn rounded-circle"
+                        onclick="location.href='#contact'"
+                          style="font-size: 30px">Contact
+                </button>
+            </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+
+    <!-- main contents-->
+    <!-- profile -->
+    <div class="mt-5 py-lg-5 container-fluid align-content-center" id="profile">
+        <div class="card">
+            <h1 class="card-title text-center display-3 mb-5">Profile</h1>
+        </div>
+        <p class="text-left p-3">
+            はじめまして。平成２年生まれ、３年生エンジニアのEchoです。</br>
+            </br>
+            岩手生まれの千葉育ち。<br>
+            大正大学人間学部臨床心理学科卒。<br>
+            <br>
+            大学を卒業してから2年ほどフリーター。</br>
+            イベント会場を設営したり撤去したりの日々。</br>
+            仕事で使うようになったQGISというツールが
+            Pythonのエラーメッセージを吐きまくることに腹が立ってプログラミングの勉強を開始。<br>
+            妹から「ハッキングしようぜ！！」と誘われ、より勉強。<br>
+            CTFへの参加などを通してIT業界への興味を持つ。</br>
+            半年ほど独学でプログラミングを楽しんだ後、フリーターもそろそろ卒業かな…ということで、2018年3月に株式会社MITに入社し、エンジニアになる。<br>
+            しょっぱなから(望んで)炎上案件に入って、若干痛い目を見たものの、なんとか2年エンジニアを続けてます。<br>
+        </p>
+    </div>
+
+    <!-- work -->
+    <div class="mt-5 py-lg-5 container-fluid" id="work">
+        <div class="card">
+            <h1 class="card-title text-center display-3 mb-5">Work</h1>
+
+            <div class="row">
+                <div class="card inner-card col-5">
+                    <div class="card-title container mt-3">
+                        <h1 class="card-subtitle">2018/04 ~ 2018/06</h1>
+                        <h1 class="card-title mt-2">ネットワーク機器の<br>故障検知システム</h1>
+                    </div>
+                    <div class="container mt-4 text-center">
+                        <p>
+                            自己学習機能を使用した、ネットワーク機器の故障検知システム。<br>
+                            ログイン機能等、ユーザ管理機能を主に作成。<br>
+                            コーディングから結合試験まで。
+                        </p>
+                    </div>
+                    <div class="container mt-4">
+                        <div class="row">
+                            <p class="col-3 text-left">OS:</p>
+                            <p class="col-9">Windows, RedHat</p>
+                        </div>
+                        <div class="row">
+                            <p class="col-3 text-left">言語:</p>
+                            <p class="col-9">Python2.7</p>
+                        </div>
+                        <div class="row">
+                            <p class="col-3 text-left">flame:</p>
+                            <p class="col-9">Flask</p>
+                        </div>
+                        <div class="row">
+                            <p class="col-3 text-left">DB</p>
+                            <p class="col-9">MySQL</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card inner-card col-5">
+                    <div class="card-title container mt-3">
+                        <h1 class="card-subtitle">2018/07 ~ 2019/02</h1>
+                        <h1 class="card-title mt-2">クレジットカード<br>明細機能</h1>
+                    </div>
+                    <div class="container mt-4">
+                        <p>
+                            すでに稼働済みのクレジットカードのWebサービスの載せ替え。<br>
+                            画面の作成、バックエンドAPIの作成。<br>
+                            主に作成したのは明細確認機能、お客様情報の変更機能。<br>
+                            コーディングから結合試験まで。
+                        </p>
+                    </div>
+                    <div class="container mt-4">
+                        <div class="row">
+                            <p class="col-3 text-left">OS:</p>
+                            <p class="col-9">MacOS, CentOS</p>
+                        </div>
+                        <div class="row">
+                            <p class="col-3 text-left">言語：</p>
+                            <p class="col-9">
+                                Java8<br>
+                                PHP,JavaScriptも少々
+                            </p>
+                        </div>
+                        <div class="row">
+                            <p class="col-3">flame：</p>
+                            <p class="col-9">Spring boot2, Thymeleaf, MyBatis</p>
+                        </div>
+                        <div class="row">
+                            <p class="col-3 text-left">DB</p>
+                            <p class="col-9">Oracle</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="card inner-card col-5">
+                    <div class="card-title container mt-3">
+                        <h1 class="card-subtitle">2019/03 ~ 2019/9</h1>
+                        <h1 class="card-title mt-2">経理事務向け<br>社内ツール</h1>
+                    </div>
+                    <div class="container mt-4">
+                        <p>
+                            電子マネー決済導入のため、それに特化した経理用ツールの作成。<br>
+                            主にBFFを担当し、ユーザ管理機能、会計情報管理機能を作成。<br>
+                            設計から結合試験まで。
+                        </p>
+                    </div>
+
+                    <div class="container mt-4">
+                        <div class="row">
+                            <p class="col-3">OS:</p>
+                            <p class="col-9">MacOS, CentOS</p>
+                        </div>
+                        <div class="row">
+                            <p class="col-3">言語：</p>
+                            <p class="col-9">
+                                Java8
+                            </p>
+                        </div>
+                        <div class="row">
+                            <p class="col-3">flame：</p>
+                            <p class="col-9">Spring boot2, Thymeleaf, FreeMarker, MyBatis, Kubernetes</p>
+                        </div>
+                        <div class="row">
+                            <p class="col-3 text-left">DB</p>
+                            <p class="col-9">Oracle</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card inner-card col-5">
+                    <div class="card-title container mt-3">
+                        <h1 class="card-subtitle">2019/10 ~ </h1>
+                        <h1 class="card-title mt-2">投資情報提供<br>Webサービス</h1>
+                    </div>
+                    <div class="container mt-4">
+                        <p>
+                            稼働済みの投資情報提供サービスの載せ替え。<br>
+                            主にBFFを担当。<br>
+                            設計から結合試験、リリースまでを行っている。
+                        </p>
+                    </div>
+                    <div class="container mt-4">
+                        <div class="row">
+                            <p class="col-3">OS:</p>
+                            <p class="col-9 ">MacOS, CentOS</p>
+                        </div>
+                        <div class="row">
+                            <p class="col-3 text-left">言語：</p>
+                            <p class="col-9">Java8</p>
+                        </div>
+                        <div class="row">
+                            <p class="col-3">flame：</p>
+                            <p class="col-9">Spring boot2, JPA, Thymeleaf</p>
+                        </div>
+                        <div class="row">
+                            <p class="col-3 text-left">DB</p>
+                            <p class="col-9">MySQL</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact -->
+    <div class="container-fluid align-content-center mt-5" id="contact">
+        <h1 class="row d-flex justify-content-center display-3">Contact</h1>
+        <br>
+        <div class="row  d-flex justify-content-center">
+            <p class="text-center">
+                なにかありましたら、下記TwitterからDMください。
+            </p>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <button class="twitter-dm-button btn rounded-circle" style="width:10rem;height:10rem;"
+                    onclick="location.href='https://twitter.com/Echo_773'">
+                <img src="image/Twitter_Logo_Blue.svg">
+            </button>
+        </div>
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer class="container d-flex justify-content-center mt-5">
+        <p>&copy;2020 echo.info</p>
+    </footer>
+</main>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+<script src="/docs/4.3/assets/js/vendor/anchor.min.js"></script>
+<script src="/docs/4.3/assets/js/vendor/clipboard.min.js"></script>
+<script src="/docs/4.3/assets/js/vendor/bs-custom-file-input.min.js"></script>
+<script src="/docs/4.3/assets/js/src/application.js"></script>
+<script src="/docs/4.3/assets/js/src/search.js"></script>
+<script src="/docs/4.3/assets/js/src/ie-emulation-modes-warning.js"></script>
+</body>
+</html>
