@@ -7,8 +7,15 @@ body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: #5a5a5a;
+  font-family: 'Sawarabi Gothic', sans-serif ;
+}
+.navbar {
+  font-family: 'Special Elite', cursive;
 }
 
+.title {
+  font-family: 'Special Elite', cursive;
+}
 
 .btn {
   fill: #8AAEA9;
@@ -122,8 +129,9 @@ body {
 .inner-card {
   width: 80%;
   margin: 0 auto;
-  border: solid 3px #D2D9E1;
-  border-radius: 20px;
+  padding: 15px;
+  border: solid 1.5px #D2D9E1;
+  border-radius: 0px;
 }
 
 #profile, #work {

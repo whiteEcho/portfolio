@@ -2,8 +2,16 @@
     background: url(../image/header.svg)
     center no-repeat;
     background-size: cover;
-    height: 300px
+    height: 360px
   }
+
+#top-image {
+color: #fff;
+font-size: 100px;
+text-align: center;
+font-family: 'Special Elite', cursive;
+font-weight: bold;
+}
 
 #icon {
 background: #fff;
