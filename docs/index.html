@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link href="css/carousel.css" rel="stylesheet">
     <link href="css/images.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&family=Special+Elite&display=swap" rel="stylesheet">
     <link id="icon" href="image/icon.svg" rel="shortcut icon">
 </head>
 <body>
@@ -50,72 +51,59 @@
 
     <!-- top page image -->
     <div class="jumbotron jumbotron-fluid">
+        <div id="top-image">
+            <h2 class="display-2">Kawahara's</h2>
+            <h1 class="display-1">Portfolio</h1>
+        </div>
     </div>
 
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
-    <div class="container marketing mt-5">
-
-        <!-- Three columns of text below the carousel -->
-        <div class="row">
-            <div class="col-lg-4">
-                <button type="button" class="btn rounded-circle"
-                        onclick="location.href='#profile'"
-                        style="font-size: 30px">Profile
-                </button>
-            </div><!-- /.col-lg-4 -->
-            <div class="col-lg-4">
-                <button type="button" class="btn rounded-circle"
-                        onclick="location.href='#work'"
-                          style="font-size: 30px">Work
-                </button>
-            </div><!-- /.col-lg-4 -->
-            <div class="col-lg-4">
-                <button type="button" class="btn rounded-circle"
-                        onclick="location.href='#contact'"
-                          style="font-size: 30px">Contact
-                </button>
-            </div><!-- /.col-lg-4 -->
-        </div><!-- /.row -->
-    </div><!-- /.container -->
-
     <!-- main contents-->
     <!-- profile -->
     <div class="mt-5 py-lg-5 container-fluid align-content-center" id="profile">
         <div class="card">
-            <h1 class="card-title text-center display-3 mb-5">Profile</h1>
+            <h1 class="card-title text-center display-3 mb-5 title">Profile</h1>
         </div>
-        <p class="text-left p-3">
-            はじめまして。平成２年生まれ、３年生エンジニアのEchoです。</br>
-            </br>
-            岩手生まれの千葉育ち。<br>
-            大正大学人間学部臨床心理学科卒。<br>
-            <br>
-            大学を卒業してから2年ほどフリーター。</br>
-            イベント会場を設営したり撤去したりの日々。</br>
-            仕事で使うようになったQGISというツールが
-            Pythonのエラーメッセージを吐きまくることに腹が立ってプログラミングの勉強を開始。<br>
-            妹から「ハッキングしようぜ！！」と誘われ、より勉強。<br>
-            CTFへの参加などを通してIT業界への興味を持つ。</br>
-            半年ほど独学でプログラミングを楽しんだ後、フリーターもそろそろ卒業かな…ということで、2018年3月に株式会社MITに入社し、エンジニアになる。<br>
-            しょっぱなから(望んで)炎上案件に入って、若干痛い目を見たものの、なんとか2年エンジニアを続けてます。<br>
-        </p>
+        <div class="text-left p-3">
+            <p>
+                はじめまして。平成２年生まれ、３年生エンジニアのEchoことカワハラシオリです。
+            </p>
+            <p>
+                岩手生まれの千葉育ち。<br>
+                大正大学人間学部臨床心理学科卒。
+            </p>
+            <p>
+                大学を卒業してから2年ほどフリーター。</br>
+                イベント会場を設営したり撤去したりしてました。</br>
+                仕事で使うようになったツールがエラーメッセージを吐きまくることに腹が立ってプログラミングの勉強を開始。<br>
+                妹に誘われたCTFへの参加などを通してIT業界への興味を持つ。</br>
+            </p>
+            <p>
+                半年ほど独学でプログラミングを楽しんだ後、フリーターを卒業し、2018年3月に株式会社MITに入社し、エンジニアになる。<br>
+                しょっぱな若干痛い目を見たものの、なんとか2年エンジニアを続けてます。
+            </p>
+            <p>
+                好きな言語はPythonなのですが、仕事ではほとんどJavaを使っているため
+                得意な言語はJavaになりました。
+            </p>
+        </div>
     </div>
 
     <!-- work -->
     <div class="mt-5 py-lg-5 container-fluid" id="work">
         <div class="card">
-            <h1 class="card-title text-center display-3 mb-5">Work</h1>
+            <h1 class="card-title text-center display-3 mb-5 title">Work</h1>
 
             <div class="row">
                 <div class="card inner-card col-5">
                     <div class="card-title container mt-3">
-                        <h1 class="card-subtitle">2018/04 ~ 2018/06</h1>
+                        <h1 class="card-subtitle">2018/04 ～ 2018/06</h1>
                         <h1 class="card-title mt-2">ネットワーク機器の<br>故障検知システム</h1>
                     </div>
-                    <div class="container mt-4 text-center">
+                    <div class="container mt-4">
                         <p>
                             自己学習機能を使用した、ネットワーク機器の故障検知システム。<br>
                             ログイン機能等、ユーザ管理機能を主に作成。<br>
@@ -144,12 +132,12 @@
 
                 <div class="card inner-card col-5">
                     <div class="card-title container mt-3">
-                        <h1 class="card-subtitle">2018/07 ~ 2019/02</h1>
+                        <h1 class="card-subtitle">2018/07 ～ 2019/02</h1>
                         <h1 class="card-title mt-2">クレジットカード<br>明細機能</h1>
                     </div>
                     <div class="container mt-4">
                         <p>
-                            すでに稼働済みのクレジットカードのWebサービスの載せ替え。<br>
+                            すでに稼働済みのクレジットカードのWebサービスのリプレース。<br>
                             画面の作成、バックエンドAPIの作成。<br>
                             主に作成したのは明細確認機能、お客様情報の変更機能。<br>
                             コーディングから結合試験まで。
@@ -168,7 +156,7 @@
                             </p>
                         </div>
                         <div class="row">
-                            <p class="col-3">flame：</p>
+                            <p class="col-3 text-left">flame:</p>
                             <p class="col-9">Spring boot2, Thymeleaf, MyBatis</p>
                         </div>
                         <div class="row">
@@ -182,7 +170,7 @@
             <div class="row mt-4 mb-5">
                 <div class="card inner-card col-5">
                     <div class="card-title container mt-3">
-                        <h1 class="card-subtitle">2019/03 ~ 2019/9</h1>
+                        <h1 class="card-subtitle">2019/03 ～ 2019/9</h1>
                         <h1 class="card-title mt-2">経理事務向け<br>社内ツール</h1>
                     </div>
                     <div class="container mt-4">
@@ -205,7 +193,7 @@
                             </p>
                         </div>
                         <div class="row">
-                            <p class="col-3">flame：</p>
+                            <p class="col-3 text-left">flame:</p>
                             <p class="col-9">Spring boot2, Thymeleaf, FreeMarker, MyBatis, Kubernetes</p>
                         </div>
                         <div class="row">
@@ -216,12 +204,12 @@
                 </div>
                 <div class="card inner-card col-5">
                     <div class="card-title container mt-3">
-                        <h1 class="card-subtitle">2019/10 ~ </h1>
+                        <h1 class="card-subtitle">2019/10 ～ </h1>
                         <h1 class="card-title mt-2">投資情報提供<br>Webサービス</h1>
                     </div>
                     <div class="container mt-4">
                         <p>
-                            稼働済みの投資情報提供サービスの載せ替え。<br>
+                            稼働済みの投資情報提供サービスのリプレース。<br>
                             主にBFFを担当。<br>
                             設計から結合試験、リリースまでを行っている。
                         </p>
@@ -236,7 +224,7 @@
                             <p class="col-9">Java8</p>
                         </div>
                         <div class="row">
-                            <p class="col-3">flame：</p>
+                            <p class="col-3 text-left">flame:</p>
                             <p class="col-9">Spring boot2, JPA, Thymeleaf</p>
                         </div>
                         <div class="row">
@@ -251,7 +239,7 @@
 
     <!-- contact -->
     <div class="container-fluid align-content-center mt-5" id="contact">
-        <h1 class="row d-flex justify-content-center display-3">Contact</h1>
+        <h1 class="row d-flex justify-content-center display-3 title">Contact</h1>
         <br>
         <div class="row  d-flex justify-content-center">
             <p class="text-center">
